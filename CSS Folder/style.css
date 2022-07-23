@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{  /*Cabeçalho*/
+    background-color: #f3f3f3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    height: 2.5em;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+header >.cabeçalho{
+    padding-top:3px;  
+	align-items: center;
+	padding-left: 5rem;
+}
+.cabeçalho > .principais{
+    list-style-type: none;
+     display:inline;
+     padding: 10px;
+     text-align: center;
+	 font-size: 20px;
+	 color: #000000;
+}
+.logo-pedro{
+	display: flex;
+	justify-items: flex-start;
+}
+ /*Fim do Cabeçalho*/
+
+
+/*Caixa de pesquisa*/
+.pesquisa{
+display: flex;
+justify-content: end;
+}
+.pesquisa >.lupa{  
+	padding-right: 0.5em;
+	height: 30px;
+	margin-top: 0.3em;
+	color: #555555;
+}
+.pesquisa > .email{
+	height: 2em;
+	width: 10rem;
+	margin-top: 0.5em;
+	border-radius: 8%;
+	margin-right: 0em;
+}  /*Fim da Caixa de pesquisa*/
+
+
+.programador{  /*Imagem Principal*/
+    width: 100%;
+    height: 100%;
+}
+
+.principal >.textos{
+	position:absolute;
+	top: 80px;
+	right: 20px;
+	margin-right: 55rem;
+	margin-left: 5rem;
+	margin-top: 5em;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 5px black;
+
+}
+
+
+.box-social { /* Rodapé Redes Sociais */
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto;
+}
+.box-social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+.box-social ul li  { 
+	position:relative; 
+	background:#395a58; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+.box-social ul li a  { 
+
+	width:10em; 
+	height:10em; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+.box-social ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#84e8f5; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; } 
+
+.linkedin{
+	height: 7rem;
+	width: 7rem;
+	margin-top: 2rem;
+}
+.instagram{
+	height: 30%;
+	width: 30%;
+	margin-top: 3.6rem;
+}
+.youtube{
+	height: 40%;
+	width: 40%;
+	margin-top: 3.6rem;
+}
+.whatsapp{
+	height: 30%;
+	width: 30%;
+	margin-top: 4rem;
+}
+.github{
+	height: 35%;
+	width: 35%;
+	margin-top: 3.7rem;
+}
+/* Fim do Rodapé Redes Sociais */
+
